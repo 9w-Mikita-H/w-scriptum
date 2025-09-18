@@ -6,10 +6,10 @@
 ├── /library
 │    └── /work/new
 │    └── /work/:id
-│    └── /work/:id/edit
-│    └── /work/:id/chapter/new
-│    └── /work/:id/chapter/:chapterId
-│    └── /work/:id/chapter/:chapterId/edit
+│         └── /work/:id/edit
+│         └── /work/:id/chapter/new
+│         └── /work/:id/chapter/:chapterId
+│              └── /work/:id/chapter/:chapterId/edit
 ├── /author/:id
 ├── /account
 └── /admin
